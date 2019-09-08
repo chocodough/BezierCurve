@@ -6,15 +6,15 @@
 
  마우스를 클릭할 때마다 벡터에 새 정점을 추가한다. 2차 베지어 곡선을 그리는 경우를 예시로 들었다.
 
-<img src="1.png" width="300" height="300" style="display: block; margin: auto">
+<img src="./images/1.png" width="300" height="300" style="display: block; margin: auto">
 
 p0, p1, p2를 차례로 입력하면 다음과 같은 곡선을 그린다.
 
-<img src="2.png" width="300" height="300" style="display: block; margin: auto">
+<img src="./images/2.png" width="300" height="300" style="display: block; margin: auto">
 그러나 p3까지 입력할 경우, 마지막으로 생성된 베지어 곡선은 이전의 곡선과 이어지지 않게된다.
 (2차 베지어 곡선은 3개의 정점만을 사용하기 때문) 
 
-<img src="3.png" width="300" height="300" style="display: block; margin: auto">
+<img src="./images/3.png" width="300" height="300" style="display: block; margin: auto">
 
 
 이를 해결하기 위해 p3 입력 후 새 베지어곡선을 그릴 때, p1 대신에 직전 베지어곡선의 중점을 새 곡선의 첫 번째 정점으로 사용했다.
@@ -32,7 +32,7 @@ p0, p1, p2를 차례로 입력하면 다음과 같은 곡선을 그린다.
 
 - vector<point> L : T에서 넘겨받은 정점들을 저장. 전체 곡선을 나타냄
 
-<img src="4.png" width="400" height="200" style="display: block; margin: auto">
+<img src="./images/4.png" width="400" height="200" style="display: block; margin: auto">
 
 마우스로 입력받은 정점은 차례대로 P에 저장된다. T에는 현재 베지어곡선의 정점들을 저장한다(t = 0 ~ 1). T의 정점 중 t < 1 / n인 정점들은 L에 추가하며 L은 전체 곡선을 나타내게 된다.
 
@@ -56,11 +56,11 @@ N : 차수 변경(단, 한 획을 그리는 도중에는 변경할 수 없음)
 
 ## 결과
 
-<img src="5.png" width="300" height="300" style="display: block; margin: auto"><br>
+<img src="./images/5.png" width="300" height="300" style="display: block; margin: auto"><br>
 
-<img src="6.png" width="300" height="300" style="display: block; margin: auto"><br>
+<img src="./images/6.png" width="300" height="300" style="display: block; margin: auto"><br>
 
-<img src="7.png" width="300" height="300" style="display: block; margin: auto">
+<img src="./images/7.png" width="300" height="300" style="display: block; margin: auto">
 
 - 빨간색 직선은 입력받은 정점 (p0~pn)을 연결한 직선이다
 - 검은색 곡선은 중간점까지의 곡선이며 (t=0.5) 검은색 직선은 중간점이 구해진 과정을 나타낸다
