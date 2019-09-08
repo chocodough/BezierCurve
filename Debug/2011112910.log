@@ -1,0 +1,18 @@
+﻿  소스.cpp
+c:\users\nokwoon\desktop\2011112910\소스.cpp(172): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(174): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(193): warning C4018: '>=': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(223): error C2660: 'GetBezierPoint': 함수는 2개의 매개 변수를 사용하지 않습니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(223): error C2228: '.x' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(223): error C2228: '.y' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(223): error C2660: 'glVertex3f': 함수는 2개의 매개 변수를 사용하지 않습니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(232): error C2660: 'GetBezierPoint': 함수는 2개의 매개 변수를 사용하지 않습니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(232): error C2228: '.x' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(232): error C2228: '.y' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(232): error C2660: 'glVertex3f': 함수는 2개의 매개 변수를 사용하지 않습니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(233): error C2660: 'GetBezierPoint': 함수는 2개의 매개 변수를 사용하지 않습니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(233): error C2228: '.x' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(233): error C2228: '.y' 왼쪽에는 클래스/구조체/공용 구조체가 있어야 합니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(233): error C2660: 'glVertex3f': 함수는 2개의 매개 변수를 사용하지 않습니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(252): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+c:\users\nokwoon\desktop\2011112910\소스.cpp(265): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
